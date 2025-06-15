@@ -22,7 +22,7 @@ const Book = sequelize.define(
             allowNull: false,
         },
         year: {
-            type: DataTypes.NUMBER,
+            type: DataTypes.INTEGER,
             allowNull: false,
             validate: {
                 min: 1
